@@ -52,7 +52,7 @@ if (isset($_GET['errors'])) {
             
                 <li>
                     <a href="index.php?view=checkout">
-                       <span class="badge"><?php echo Util::escape($cartSize); ?></span> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                       <span class="badge"><?php echo Util::escape((string)$cartSize); ?></span> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
                 </li>
               
                 <li class="dropdown">
